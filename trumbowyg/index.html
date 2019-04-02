@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.15.1/ui/trumbowyg.min.css">
+</head>
+<body>
+
+  <div id="trumbowyg-demo"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.15.1/trumbowyg.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.15.1/langs/fr.js"></script>
+  <script>
+    window.trumbowygDemo = $('#trumbowyg-demo').trumbowyg({lang: 'fr'})
+
+    window.trumbowygDemo.trumbowyg('html', '<h1>Hello</h1><p><hr></p><h2>world</h2><p><a href="https://mangadex.org/chapter/575831/8"></a></p><h2 xmlns="http://www.w3.org/1999/xhtml"></h2><p xmlns="http://www.w3.org/1999/xhtml"><a href="https://mangadex.org/chapter/575831/8">Link</a></p>')
+
+  </script>
+</body>
+</html>
